@@ -11,4 +11,6 @@ main reasons why I use Linux.
 
 ## Requirements
 - [luarocks](https://luarocks.org/)
-
+- [fd](https://github.com/sharkdp/fd)
+- [ripgrep](https://github.com/BurntSushi/ripgrep)
+- tree-sitter-cli
