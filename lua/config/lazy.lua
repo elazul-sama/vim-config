@@ -34,7 +34,7 @@ opt.ignorecase = true
 opt.smartcase = true
 
 opt.updatetime = 400
-opt.timeoutlen = 300
+opt.timeoutlen = 400
 
 -- Split appearance
 opt.splitright = true

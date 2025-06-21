@@ -1,8 +1,8 @@
 local config = {
   'neovim/nvim-lspconfig',
   dependencies = {
-    { 
-      'mason-org/mason.nvim', 
+    {
+      'mason-org/mason.nvim',
       opts = {
         ui = {
           icons = {
