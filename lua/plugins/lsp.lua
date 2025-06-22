@@ -11,7 +11,7 @@ local config = {
             package_uninstalled = '✗'
           }
         }
-      } 
+      }
     },
     {
       'mason-org/mason-lspconfig.nvim',
@@ -19,7 +19,8 @@ local config = {
         ensure_installed = { 'lua_ls', 'clangd', 'basedpyright' }
       },
     }
-  }
+  },
+  { 'saghen/blink.cmp' },
 }
 
 return { config }
