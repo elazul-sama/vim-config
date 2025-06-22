@@ -6,17 +6,17 @@ local config = {
       opts = {
         ui = {
           icons = {
-            package_installed = "✓",
-            package_pending = "➜",
-            package_uninstalled = "✗"
+            package_installed = '✓',
+            package_pending = '➜',
+            package_uninstalled = '✗'
           }
         }
       } 
     },
     {
-      "mason-org/mason-lspconfig.nvim",
+      'mason-org/mason-lspconfig.nvim',
       opts = {
-        ensure_installed = { 'lua_ls', 'clangd' }
+        ensure_installed = { 'lua_ls', 'clangd', 'basedpyright' }
       },
     }
   }

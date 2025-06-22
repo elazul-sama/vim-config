@@ -25,21 +25,17 @@ local config = {
     keymap = {
       preset = 'enter',
     },
-
     appearance = { nerd_font_variant = 'mono' },
-
     completion = {
       -- Press `<c-space>` to show the documentation.
       documentation = { auto_show = false },
     },
-
     sources = {
       default = { 'lsp', 'path', 'snippets', 'lazydev' },
       providers = {
         lazydev = { module = 'lazydev.integrations.blink', score_offset = 100 },
       },
     },
-
     snippets = { preset = 'luasnip' },
     fuzzy = { implementation = 'prefer_rust_with_warning' },
     signature = { enabled = true },
@@ -47,3 +43,4 @@ local config = {
 }
 
 return { config }
+
