@@ -16,7 +16,7 @@ local config = {
     {
       'mason-org/mason-lspconfig.nvim',
       opts = {
-        ensure_installed = { 'lua_ls', 'clangd', 'basedpyright' }
+        ensure_installed = { 'lua_ls', 'clangd', 'pyright' }
       },
     }
   },
