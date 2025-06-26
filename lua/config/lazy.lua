@@ -44,8 +44,8 @@ opt.cursorline = true
 opt.mouse = 'a' 
 opt.scrolloff = 10
 
-opt.softtabstop = 2
-opt.shiftwidth = 2
+opt.softtabstop = 4
+opt.shiftwidth = 4
 opt.expandtab = true
 
 -- Ask instead of failing an op
